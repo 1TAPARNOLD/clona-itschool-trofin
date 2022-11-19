@@ -159,9 +159,7 @@
   padding: var(--spacing-medium);
 }
 
-.container p {
-  text-align: center;
-}
+
 
 .infoimage img {
   width: 100%;
@@ -189,12 +187,13 @@
 .photos {
   display: flex;
   flex-wrap: wrap;
+  flex: 1 1 0;
 }
 
 .photos img {
 width: 100px;
+margin-left: 4rem;
 margin-right: 4rem;
-margin-left: var(--spacing-xl);
 margin-bottom: var(--spacing-medium);
 filter: grayscale(100%);
 }

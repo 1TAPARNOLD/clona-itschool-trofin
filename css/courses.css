@@ -35,9 +35,11 @@ h2 {
 }
 
 .grid p {
-    margin-left: var(--spacing-small);
+
     margin-right: var(--spacing-small);
-    padding: var(--spacing-medium);
+    padding-top: var(--spacing-medium);
+    padding-bottom: var(--spacing-medium);
+
 }
 
 .courses .courses-container {
@@ -67,6 +69,7 @@ h2 {
 
 .courses .content {
     padding: 0 var(--spacing-small);
+    text-align: left;
 }
 
 .courses h3 {
